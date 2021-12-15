@@ -1,5 +1,4 @@
 # QuartzDotnetAndGenericHost
-Quartz.NET 과 Generic Host 기본 형태
 
 Quartz.NET과 Generic Host를 이용한 형태 예제입니다.
 
