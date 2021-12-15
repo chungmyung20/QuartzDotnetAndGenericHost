@@ -8,7 +8,7 @@ Quartz.NET과 Generic Host를 이용한 형태 예제입니다.
 3. 전처리 명령어를 이용하는 방법
 4. EF Core의 DB Context를 설정하는 방법
 5. Service 생성방법
-6. HttpClient를 IHttpClientFactory를 통해 이용하는 방법
+6. IHttpClientFactory를 이용하여 HttpClient와 HttpClientHandler로 정의한 HttpClient를 사용하는 방법
 
 위의 예제를 알 수 있습니다.
 EF Core의 DB Context는 Visual Studio를 설치할 때 생기는 기본 Local DB를 이용했으며 커넥션 스트링은 스케폴딩하는 명령어는 아래와 같습니다.
