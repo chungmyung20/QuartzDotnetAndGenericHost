@@ -11,6 +11,6 @@ Quartz.NET과 Generic Host를 이용한 형태 예제입니다.
 7. List<<Task>> 와 SemaphoreSlim을 이용하여 멀티 태스킹 시 쓰로틀링 제어하는 방법
 
 위의 예제를 알 수 있습니다.
-EF Core의 DB Context는 Visual Studio를 설치할 때 생기는 기본 Local DB를 이용했으며 커넥션 스트링은 스케폴딩하는 명령어는 아래와 같습니다.
+EF Core의 DB Context는 Visual Studio를 설치할 때 생기는 기본 Local DB를 이용했으며 스케폴딩하는 명령어는 아래와 같습니다.
 
 > scaffold-dbcontext -Connection "Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=QuartzDotnetAndGenericHost;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False" -Provider Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models/DAO -Context MyContext
