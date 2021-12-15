@@ -1,12 +1,15 @@
-﻿using System;
+﻿using QuartzDotnetAndGenericHost.Models.DAO;
+using System;
 
 namespace QuartzDotnetAndGenericHost.Services
 {
     public class MyService
     {
-        public MyService()
-        {
+        private readonly MyContext dbContext;
 
+        public MyService(MyContext dbContext)
+        {
+            this.dbContext = dbContext;
         }
 
         public void MyVoidMethod()

@@ -91,7 +91,7 @@ namespace QuartzDotnetAndGenericHost
                     services.AddQuartzHostedService(q => q.WaitForJobsToComplete = true);
 #endif
                     // Add My EF Core DbContext
-                    services.AddDbContext<TWSMasterDbContext>(options => options.UseSqlServer(context.Configuration.GetConnectionString("MyDataBase")));
+                    services.AddDbContext<MyContext>(options => options.UseSqlServer(context.Configuration.GetConnectionString("MyDataBase")));
 
                     // Add My Class
                     CookieContainer cookieContainer = new();
