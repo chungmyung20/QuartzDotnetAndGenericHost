@@ -3,18 +3,34 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzDotnetAndGenericHost", "QuartzDotnetAndGenericHost\QuartzDotnetAndGenericHost.csproj", "{2E007875-B894-4155-AB54-EBAED482DDBC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "QuartzDotnetAndGenericHost", "QuartzDotnetAndGenericHost\QuartzDotnetAndGenericHost.csproj", "{2E007875-B894-4155-AB54-EBAED482DDBC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuartzDotnetAndGenericHostWorkerService", "QuartzDotnetAndGenericHostWorkerService\QuartzDotnetAndGenericHostWorkerService.csproj", "{679B4B6B-5C7E-4A96-8E29-5C280D55C760}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
 		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2E007875-B894-4155-AB54-EBAED482DDBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2E007875-B894-4155-AB54-EBAED482DDBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E007875-B894-4155-AB54-EBAED482DDBC}.Debug|x64.ActiveCfg = Debug|x64
+		{2E007875-B894-4155-AB54-EBAED482DDBC}.Debug|x64.Build.0 = Debug|x64
 		{2E007875-B894-4155-AB54-EBAED482DDBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E007875-B894-4155-AB54-EBAED482DDBC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E007875-B894-4155-AB54-EBAED482DDBC}.Release|x64.ActiveCfg = Release|x64
+		{2E007875-B894-4155-AB54-EBAED482DDBC}.Release|x64.Build.0 = Release|x64
+		{679B4B6B-5C7E-4A96-8E29-5C280D55C760}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{679B4B6B-5C7E-4A96-8E29-5C280D55C760}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{679B4B6B-5C7E-4A96-8E29-5C280D55C760}.Debug|x64.ActiveCfg = Debug|x64
+		{679B4B6B-5C7E-4A96-8E29-5C280D55C760}.Debug|x64.Build.0 = Debug|x64
+		{679B4B6B-5C7E-4A96-8E29-5C280D55C760}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{679B4B6B-5C7E-4A96-8E29-5C280D55C760}.Release|Any CPU.Build.0 = Release|Any CPU
+		{679B4B6B-5C7E-4A96-8E29-5C280D55C760}.Release|x64.ActiveCfg = Release|x64
+		{679B4B6B-5C7E-4A96-8E29-5C280D55C760}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
